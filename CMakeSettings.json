@@ -1,0 +1,30 @@
+﻿{
+  "configurations": [
+    {
+      "name": "WSL-GCC-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeExecutable": "/usr/bin/cmake",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "linux_x64" ],
+      "wslPath": "C:\\Users\\shiva\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu.exe",
+      "addressSanitizerEnabled": true,
+      "variables": [
+        {
+          "name": "CMAKE_CXX_COMPILER",
+          "value": "/usr/bin/g++-10",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CMAKE_C_COMPILER",
+          "value": "/usr/bin/gcc-10",
+          "type": "FILEPATH"
+        }
+      ]
+    }
+  ]
+}

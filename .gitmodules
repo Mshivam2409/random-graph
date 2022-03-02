@@ -1,0 +1,18 @@
+[submodule "lib/taskflow"]
+	path = lib/taskflow
+	url = https://github.com/taskflow/taskflow
+[submodule "lib/stats"]
+	path = lib/stats
+	url = https://github.com/kthohr/stats
+[submodule "lib/gcem"]
+	path = lib/gcem
+	url = https://github.com/kthohr/gcem
+[submodule "lib/indicators"]
+	path = lib/indicators
+	url = https://github.com/p-ranav/indicators
+[submodule "lib/CSVWriter"]
+	path = lib/CSVWriter
+	url = https://github.com/al-eax/CSVWriter
+[submodule "lib/matplotlib-cpp"]
+	path = lib/matplotlib-cpp
+	url = https://github.com/lava/matplotlib-cpp
