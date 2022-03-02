@@ -28,10 +28,10 @@ namespace fs = std::filesystem;
 #define RANGE 100
 #endif
 #ifndef ITERATIONS
-#define ITERATIONS 5
+#define ITERATIONS 100
 #endif
 #ifndef GRAPH_SIZE
-#define GRAPH_SIZE 10000
+#define GRAPH_SIZE 10000000
 #endif
 
 int main()
